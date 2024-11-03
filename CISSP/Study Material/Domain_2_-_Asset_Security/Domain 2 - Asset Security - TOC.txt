@@ -1,0 +1,8 @@
+Domain 2 - Asset Security 
+
+1. Identify and classify information and assets
+2. Determine and maintain information and asset ownership
+3. Protect privacy
+4. Ensure appropriate asset retention
+5. Determine data security controls
+6. Establish information and asset handling requirements

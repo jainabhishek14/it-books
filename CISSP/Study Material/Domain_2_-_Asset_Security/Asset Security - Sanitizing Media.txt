@@ -1,0 +1,25 @@
+Sanitization is a process to render access to target data on the media infeasible for a given level of recovery effort.
+
+
+
+Clear, Purge, & Destroy are actions that can be taken to sanitize media. The categories of sanitization are defined as follows:
+
+
+
+ Clear applies logical techniques to sanitize data in all user-addressable storage locations for protection against simple non-invasive data recovery techniques; typically applied through the standard Read & Write commands to the storage device, such as by rewriting with a new value or using a menu option to reset the device to the factory state.
+
+
+
+ Purge applies physical or logical techniques that render Target Data recovery infeasible using state of the art laboratory techniques.
+
+
+
+ Destroy renders Target Data recovery infeasible using state of the art laboratory techniques & results in the subsequent inability to use the media for storage of data.
+
+
+
+The security goal of the overwriting (clearing) process is to replace target data with non-sensitive data, which would be acceptable when you are asked to overwrite media to allow for reuse in an environment operating at the same security level.
+
+
+
+Simply deleting a file would actually be Erasing.

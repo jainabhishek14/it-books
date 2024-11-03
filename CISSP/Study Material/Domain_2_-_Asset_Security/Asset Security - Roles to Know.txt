@@ -1,0 +1,56 @@
+The following are roles to know:
+
+Data Subject - an individual who is the subject of personal data
+
+
+Data Owner - "Masters of all" ; responsible for classification of data and hold legal rights and complete control over the data they create
+
+
+Data Controller - Determines the purpose(s) for which and the manner in which data is to be processed
+
+
+Data Processor - "Managers of all" ; they process the data on behalf of the Data Controller and the following SPECIFICALLY:
+
+	. Adherence to appropriate and relevant data policy and data ownership guidelines  
+
+	. Ensuring accessibility to appropriate users, maintaining appropriate levels of dataset security  
+
+	. Dataset maintenance & documentation  
+
+	. Assurance of quality and validation of any additions to a dataset, including periodic audits to assure ongoing data integrity
+
+
+
+Data Custodians - responsible for the safe custody, transport, storage of the data & implementation of business rules. A data custodian ensures:
+
+	. Access to the data is authorized and controlled
+	. Data stewards are identified for each data set
+	. Technical processes sustain data integrity
+	. Processes exist for data quality issue resolution in partnership with Data Stewards
+	. Technical controls safeguard data
+	. Data added to data sets are consistent with the common data model
+	. Versions of Master Data are maintained along with the history of changes
+	. Change management practices are applied in maintenance of the database/dataset
+	. Data content & changes can be audited
+
+
+
+Data Stewards - responsible for utilizing an organization's data governance processes to ensure fitness of data elements - both the content and metadata. 
+
+Data stewards focus on processes, policies, guidelines & responsibilities for administering organizations' entire data in compliance with policy and/or regulatory obligations.
+
+
+
+
+
+Topic 4: Ensure appropriate asset retention
+
+Things to consider:
+
+	1. Where data to be retained is
+	2. What form(s) does the data exist in
+	3. Who has access to the data
+	4. How long does the data need to be retained under current conditions of access
+	5. When will data access be modified / terminated
+	6. Why is data being retained
+

@@ -1,0 +1,810 @@
+Domain:  Security and Risk Management
+
+
+Topic 1: Understand and apply concepts of confidentiality, integrity and 
+availability
+
+1. Confidentiality - "Keeping good data away from bad actors"
+
+For Confidentiality to be maintained in a network, data must be protected at rest, in use and on the wire.
+
+Violations of Confidentiality can come from ANYWHERE, at ANY TIME... bad decisions on the part of users, administrators and customers can all lead to a violation. Also, remember that security policies that are not implemented properly can lead to potential confidentiality violations.
+
+Possible countermeasures include:
+
+	a. encryption
+	b. traffic padding
+	c. strict access controls / authentication
+	d. data classification
+	e. awareness training
+
+
+Confidentiality & Integrity depend on each other. One is not effective without the other.
+
+Additional concepts linked to Confidentiality:
+
+	1. sensitivity
+	2. discretion
+	3. criticality
+	4. concealment
+	5. isolation
+
+
+2. Integrity - "Change control for data - no unauthorized modification without knowledge and consent of data owner"
+
+Three ways in which we can understand Integrity:
+
+	1. Preventing unauthorized subjects from making modifications
+	2. Preventing authorized subjects from making unauthorized 
+modifications
+	3. Maintaining consistency of objects so that they are true and accurate
+
+Possible countermeasures include:
+
+	a. strict access controls / authentication
+	b. IDS
+	c. encryption
+	d. hashing
+	e. interface restrictions / controls
+	f. input / function checks (validation)
+
+
+Additional concepts linked to Integrity:
+
+	1. accuracy
+	2. authenticity
+	3. validity
+	4. nonrepudiation - user cannot deny having performed an action
+
+
+3. Availability - authorized subjects can access objects in a timely manner without interruption
+
+	 
+Possible countermeasures include:
+
+	a. strict access controls / authentication
+	b. continuous monitoring
+	c. firewalls & routers to prevent DoS / DDoS attacks
+	d. redundant system design 
+	e. periodic testing of backup systems
+
+
+Additional concepts linked to Availability:
+
+	1. usability
+	2. accessibility
+	3. timeliness
+
+
+========================================================================
+
+Topic 2: Evaluate and apply security governance principles
+
+Information security management validates appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.
+
+
+A Security Framework
+- acts as a reference point
+- provides a common language for communications
+- allows us to share information and create relevancy
+
+Examples
+
+Financial Reporting:
+
+Basel II
+Sarbanes-Oxley
+COSO
+
+Information Security:
+
+BS7799 / ISO 27000 ISMS fundamentals and vocabulary, umbrella 27003 ISMS implementation guide, 27004 ISM metrics, 27005 infosec risk management, 27006 certification agencies, 27007 audit, 27009 IS governance, 27010 critical infrastructure
+
+BS 7799 Part 1 ISO 17799, ISO 27002 code of practice - 133 controls, 500+ detailed controls
+
+BS 7799 Part 2 ISO 27001 Information Security Management System (ISMS)
+
+COBIT 5 / COBIT 2019: A business framework for the governance and management of enterprise IT
+
+ISO 15408: Common Criteria for Information Technology Security Evaluation
+
+ISO/IEC DIS 15408-1 Information security, cybersecurity and privacy protection — Evaluation criteria for IT security — Part 1: Introduction and general model
+
+Framework for specification of evaluation Protection Profile (PP) Evaluation Assurance Level (EAL 1-7)
+
+Information Security Forum: (www.securityforum.org)
+
+Standard of Good Practice for Information Security - 5 "aspects"
+  Security Management
+  Critical Business Applications
+  Computer Installations
+  Networks
+  Systems Development
+
+Broken out into 30 "areas," and 135 "sections"
+
+
+NIST CyberSecurity Framework:
+  https://www.nist.gov/cyberframework
+
+BSIMM:
+  https://www.bsimm.com/framework.html
+
+ITIL
+
+Management / Enterprise frameworks:
+
+- Zachman
+- Calder-Moir
+- TOGAF
+- DoDAF
+- MODAF
+- SABSA
+- COSO
+
+NIST: A library of freely available resources (http://csrc.nist.gov)
+
+Information Security Handbook: A Guide for Managers SP800-100
+
+Recommended Security Controls for Federal Info Systems SP800-53R4 / R5
+
+Risk Management Guide for Information Technology Systems SP800-30R1
+
+An Introduction to Information Security SP800-12R1
+
+Supply Chain Risk Management Practices for Federal Information Systems and Organizations SP800-161
+
+Computer Security Incident Handling Guide SP800-61R2
+
+Guide for Applying the Risk Management Framework to Federal Information Systems: a Security Life Cycle Approach SP800-37R2
+
+
+https://www.iso.org/standard/50341.html
+https://www.iso.org/isoiec-27001-information-security.html
+
+
+=========================================================================
+
+Topic 3: Determine compliance requirements - (AUDITABILITY)
+  
+  1. Contractual, legal, industry standards, and regulatory requirements
+
+	Governance, Risk Management, and Compliance (GRC)
+	
+	U.S.- EU Safe Harbor Framework / Privacy Shield
+  
+  2. Privacy requirements - GDPR replaces Directive 95/46 EC
+
+	Personally Identifiable Information (PII)
+
+=========================================================================
+
+Topic 4: Understand legal and regulatory issues that pertain to information security in a global context
+
+
+  1. Cyber crimes and data breaches
+
+When assessing the effect of cybercrime, you need to evaluate areas such as:
+ a. Loss of intellectual property and / or sensitive data
+ b. Damage to brand image/reputation
+ c. Penalties and compensatory payments
+ d. Cost of countermeasures
+ 
+ Incident - some sort of occurrence or event
+
+ Breach - an occurrence or event that has a negative outcome
+
+ Disclosure - making "secret" information public
+
+ 
+  2. Licensing and intellectual property requirements
+
+ Patent - A patent is a set of exclusive rights granted by a sovereign 
+state or intergovernmental organization to an inventor or assignee for a limited period of time (typically 20 years) in exchange for detailed public disclosure of an invention. An invention is a solution to a specific technological problem and is a product or a process.
+ 
+ Copyright - protects published or unpublished original work (for the duration of its author's life plus 50 years) from unauthorized duplication without due credit and compensation. Copyright covers not only books but also advertisements, articles, graphic designs, labels, letters (including emails), lyrics, maps, musical compositions, product designs, etc. 
+
+According to the major international intellectual-property protection treaties (Berne Convention, Universal Copyright Convention, and WIPO Copyright Treaty) five rights are associated with a copyright, the right to: 
+
+(1) Reproduce the work in any form, language, or medium 
+(2) Adapt or derive more works from it 
+(3) Make and distribute its copies 
+(4) Perform it in public 
+(5) Display or exhibit it in public  
+
+ Trademark - a recognizable sign, design, or unique expression related to products or services of a particular source from those of others, usually called service marks.
+
+ 
+  3. Import/export controls
+
+ International Traffic in Arms Regulations (ITAR) - What is considered 
+exportable
+ 
+ Export Administration Regulations (EAR) - Under what conditions can we export
+
+ The Wassenaar Arrangement - Dual-Use Goods
+
+  
+  4. Trans-border data flows
+
+OECD Declaration on Transborder Data Flows, OECD Digital Economy Paper 
+No. 1 (Apr. 11, 1985)
+
+"Rapid technological developments in the field of information, computers and communications are leading to significant structural changes in the economies of Member countries. Flows of computerized data and information are an important consequence of technological advances and are playing an increasing role in national economies. With the growing economic interdependence of Member countries, these flows acquire an international dimension, known as transborder data flows."
+
+
+  5. Privacy
+
+Organization for Economic Cooperation and Development (OECD) Guidelines
+
+ Eight Core Principles
+  
+  1. Collection Limitation
+  2. Data Quality
+  3. Purpose Specification
+  4. Use Limitation
+  5. Security Safeguards
+  6. Openness
+  7. Individual Participation
+  8. Data Controller Accountability
+
+=========================================================================
+
+Topic 5: Understand, adhere to, and promote professional ethics
+ 
+  1. (ISC)² Code of Professional Ethics
+
+Code of Ethics Preamble 
+
+“The safety and welfare of society and the common good, duty to our principles, and to each other, requires that we adhere, and be seen to adhere, to the highest ethical standards of behavior.
+
+Therefore, strict adherence to this Code is a condition of certification. For our clientele, and the public at large, to see the value in (ISC)2 certifications, they must be able to trust our members; this trust must come from a belief that (ISC)2 members act in a manner that is correct and professional and offer benefit.” 
+
+
+Code of Ethics Canons 
+
+1. Protect society, the commonwealth, and the infrastructure 
+2. Act honorably, honestly, justly, responsibly, and legally 
+3. Provide diligent and competent service to principals 
+4. Advance and protect the profession 
+
+https://www.isc2.org/ethics#
+
+
+  2. Organizational code of ethics
+
+
+=========================================================================
+
+Topic 6:  Develop, document, and implement security policy, standards, 
+procedures, and guidelines
+
+Security Policy - Direction from senior management (Strategic)
+
+Standard - Formalized
+
+Procedure - Step by step method of accomplishing something (Tactical)
+
+Guideline - Best Practice recommendation
+
+
+=========================================================================
+
+Topic 7:  Identify, analyze, and prioritize Business Continuity (BC) requirements 
+ 
+ 1. Develop and document scope and plan
+
+	Project Management
+		Senior Management Support (*)
+		Project Scope
+		Resources
+		Timeline
+ 
+	
+ 2. Business Impact Analysis (BIA)
+
+Used to determine what impact a disruptive event would have on an organization 
+
+Goals: 
+
+1. Determine Criticality
+2. Estimate Maximum Downtime
+3. Evaluate Internal and External Resource Requirements 
+ 
+Process Steps:
+
+1. Gather requirements/information
+2. Vulnerability assessment
+3. Risk Analysis
+	Quantitative - ALE = SLE * ARO
+	Qualitative
+4. Communicate findings - Audience relevancy
+
+Determining Downtime:
+
+Maximum Allowable Downtime (MAD) / Maximum Tolerable Downtime (MTD)
+
+Recovery Time Objective (RTO)
+
+Work Recovery Time (WRT)
+
+Recovery Point Objective (RPO)
+
+
+=========================================================================
+
+Topic 8:  Contribute to and enforce personnel security policies and procedures
+
+1. Candidate screening and hiring 
+2. Employment agreements and policies 
+3. Onboarding and termination processes 
+4. Vendor, consultant, and contractor agreements and controls
+5. Compliance policy requirements 
+6. Privacy policy requirements
+
+Job Rotation - Cross-training | knowledge documentation
+
+Separation of Duties - prevent one person from having ALL the power
+
+Need to Know - Amount of knowledge required to execute job
+
+Least Privilege - Level of access (permissions) required to execute job
+
+
+=========================================================================
+
+Topic 9:  Understand and apply risk management concepts
+
+MUST KNOW CONCEPTS !!: NIST SP800-30R1 page 12
+
+Risk: The probability (likelihood) that a given threat source will exercise a particular vulnerability and the resulting impact should that occur
+
+Threat -  an event or situation that if it occurred, would prevent the 
+organization from operating in its normal manner
+
+Vulnerability - weakness
+
+Likelihood - chance something might happen
+
+Impact - what a threat will cost (quantitative/qualitative) 
+
+Countermeasure (control) - mechanism applied to minimize risk
+
+Residual Risk - remaining risk(s) after all countermeasures/controls have been applied
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+1. Identify threats and vulnerabilities - NIST SP800-30R1
+	A vulnerability is “an inherent weakness in an information system, security procedures, internal controls, or implementation that could be exploited by a threat source"
+
+ 
+2. Risk assessment/analysis - NIST SP800-30R1 page 23
+	Step 1 - Prepare for Assessment
+	Step 2 - Conduct Assessment
+		a. Identify threat sources & events
+		b. Identify vulnerabilities & predisposing conditions
+		c. Determine likelihood of occurrence
+		d. Determine magnitude of impact
+		e. Determine Risk
+	Step 3 - Communicate Results
+	Step 4 - Maintain Assessment
+
+3. Risk response - treatment/treat 
+	1. Avoid
+	2. Accept
+	3. Transfer
+	4. Mitigate
+ 
+4. Countermeasure selection and implementation
+	Cost
+	Effectiveness
+	Appropriateness
+ 
+5. Applicable types of controls (e.g., preventive, detective, corrective)
+
+Control Categories
+	• Physical
+	• Administrative
+	• Logical (Technical)
+
+
+
+The seven main types of control are: 
+	
+	1. Directive: specify acceptable rules of behavior within an organization 
+	
+	2. Deterrent: discourage people from violating security directives 
+	
+	3. Preventive: stop a security incident or information breach 
+	
+	4. Compensating: substitute for the loss of primary controls and mitigate risk down to an acceptable level 
+	
+	5. Detective: signal a warning when a security control has been breached 
+	
+	6. Corrective: remedy circumstance, mitigate damage, or restore controls 
+	
+	7. Recovery: restore conditions to normal after a security incident 
+
+
+6. Security Control Assessment (SCA) - Monitor your controls to assess how well they are performing
+
+	Tailoring - filtering
+	
+	Scoping - what is in & what is out
+	
+	Supplementation - making additions (adding on) to add value and support for mission objectives
+
+	Types of assessments:
+
+	a. Vulnerability
+		Scanning
+		Analysis
+		Communicate results
+
+	b. Penetration
+		
+	Strategies:
+		• External testing
+		• Internal testing
+		• Blind testing
+		• Double-blind testing
+
+	Categories:
+		• Zero knowledge    - Black Box
+		• Partial knowledge - Grey Box
+		• Full knowledge    - White Box
+
+	Methodology:
+		1. Reconnaissance
+		2. Enumeration
+		3. Vulnerability analysis
+		4. Execution / Exploitation
+		5. Document findings
+	
+	c. Application
+	d. DoS / DDoS
+	e. WAR...
+	f. Wireless
+	g. Social Engineering
+	h. Telephony
+
+7. Monitoring and measurement - The 2 Q's
+
+	Quantitative - measures "tangibles" | Numerical assessment
+
+	Annualized Loss Expectancy (ALE) = Single Loss Expectancy (SLE) * Annual Rate Occurrence (ARO)
+
+	       SLE * ARO = ALE
+	$ 1,000.00 * 3 = $3,000
+
+
+	Qualitative - measures "intangibles" | the product of likelihood and impact produces the level of risk. The higher the risk level, the more immediate the need for the organization to address the issue. (Risk Matrix)
+
+	Process steps:
+		• Approval  - Senior Management gives us this
+		• Form a Risk Assessment Team
+		• Analyze Data 
+		• Calculate Risk 
+		• Countermeasure Recommendations
+
+8. Asset valuation - understanding tangible / intangible worth
+
+9. Reporting - Gotta have it !!! (timeliness and understandability)
+
+10. Continuous improvement - Deming Cycle (PDCA)
+
+	P lan
+	D o
+	C heck
+	A ct
+
+11. Risk frameworks -
+
+COSO -  identifies 5 areas necessary to meet the financial reporting and disclosure objectives. These include:  
+	a. Control environment  
+	b. Risk assessment  
+	c. Control activities  
+	d. Information and communication  
+	e. Monitoring
+
+
+ITIL -  showing how controls can be implemented for the service management IT processes. 5 Lifecycle phases:
+	1. Service Strategy
+	2. Service Design
+	3. Service Transition
+	4. Service Operation
+	5. Continual Service Improvement (CSI)
+
+COBIT -  examines the effectiveness, efficiency, confidentiality, integrity, availability, compliance, and reliability aspects of the high-level control objectives.
+
+ISO 27001 / 27002 series (ISO 17799/BS7799) - ISMS (01) and Controls (02)
+
+ISO 73:2009 - Risk Management Vocabulary
+
+ISO 31010:2009 - Risk Assessment Techniques
+
+ISO 31000:2018 - Risk Management Guidelines
+
+	NIST: (https://csrc.nist.gov/publications/sp800)
+
+NIST SP800-12R1 An Introduction to Information Security
+
+NIST SP800-30R1 Guide for Conducting Risk Assessments
+
+NIST SP800-37R2 Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy 
+
+NIST SP800-53R5 Security and Privacy Controls for Information Systems and Organizations
+
+NIST SP800-53AR4 Assessing Security and Privacy Controls in Federal Information Systems and Organizations: Building Effective Assessment Plans
+
+NIST SP800-88R1 Guidelines for Media Sanitization
+
+NIST SP800-121R2 Guide to Bluetooth Security
+
+NIST SP800-125AR1 Security Recommendations for Server-based Hypervisor Platforms
+
+NIST SP800-160 Vol1 | Vol2 Systems Security Engineering: Considerations for a Multidisciplinary Approach in the Engineering of Trustworthy Secure Systems
+
+NIST SP800-161 Supply Chain Risk Management Practices for Federal Information Systems and Organizations
+
+NIST SP800-171R1 Protecting Controlled Unclassified Information in 
+Nonfederal Systems and Organizations
+
+NIST SP800-193 Platform Firmware Resiliency Guidelines
+
+
+
+Let's go for a field trip shall we?
+
+
+Risk Management Framework (RMF) Overview -
+
+The selection and specification of security controls for a system SHOULD BE accomplished as part of an organization-wide information security program that involves the management of organizational risk. 
+
+
+THE RISK MANAGEMENT FRAMEWORK PROVIDES A PROCESS THAT INTEGRATES SECURITY & RISK MANAGEMENT ACTIVITIES INTO THE SYSTEM DEVELOPMENT LIFE CYCLE.
+
+
+Risk-Based Approach -
+
+The risk-based approach to security control selection and specification considers effectiveness, efficiency, and constraints due to applicable laws, directives, Executive Orders, policies, standards, or regulations. 
+
+The following activities related to managing organizational risk are paramount to an effective information security program and can be applied to both new and legacy systems within the context of the system development life cycle:
+
+
+1. Prepare Step -
+
+Prepare carries out essential activities at the organization, mission and business process, and information system levels of the enterprise to help prepare the organization to manage its security and privacy risks using the Risk Management Framework.
+
+
+2. Categorize Step -
+
+Categorize the system and the information processed, stored, and transmitted by that system based on an impact analysis (*1).
+
+
+3. Select Step -
+
+Select an initial set of baseline security controls for the system based on the security categorization; tailoring and supplementing the security control baseline as needed based on organization assessment of risk and local conditions.
+
+
+4. Implement Step -
+
+Implement the security controls and document how the controls are deployed within the system and environment of operation.
+
+
+5. Assess Step -
+
+Assess the security controls using appropriate procedures to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system.
+
+
+6. Authorize Step -
+
+Authorize system operation based upon a determination of the risk to organizational operations and assets, individuals, other organizations and the Nation resulting from the operation of the system and the decision that this risk is acceptable (*2).
+
+
+7. Monitor Step -
+
+Monitor and assess selected security controls in the system on an ongoing basis including assessing security control effectiveness, documenting changes to the system or environment of operation, conducting security impact analyses of the associated changes, and reporting the security state of the system to appropriate organizational officials (*3).
+
+
+Footnotes:
+
+1. The RMF categorize step, including consideration of legislation, policies, directives, regulations, standards, and organizational mission/business/operational requirements, facilitates the identification of security requirements.
+
+2. NIST Special Publication 800-37 Revision 2 provides guidance on authorizing system to operate.
+
+3. NIST Special Publication 800-37 Revision 2 provides guidance on monitoring the security controls in the environment of operation, the ongoing risk determination and acceptance, and the approved system authorization to operated status.
+
+
+=========================================================================
+
+Topic 10:  Understand and apply threat modeling concepts and methodologies
+
+What is Threat Modeling? - a process by which potential threats, such as structural vulnerabilities can be identified, enumerated, and prioritized – all from a hypothetical attacker’s point of view. 
+
+The purpose of threat modeling is to provide defenders with a systematic analysis of the probable attacker’s profile, the most likely attack vectors, and the assets most desired by an attacker.
+
+The threat risk modeling process has five steps: 
+	1. Identify Security Objectives
+	2. Survey the Application / system
+	3. Decompose it
+	4. Identify Threats
+	5. Identify Vulnerabilities
+
+
+1. Threat modeling methodologies - History
+
+1977 - Christopher Alexander's Architectural Patterns
+
+1988 - Robert Barnard develops 1st profile of an attacker
+
+1994 - Edward Amoroso enumerates the concept of a “threat tree” in his book, “Fundamentals of Computer Security Technology” to graphically represent how a potential threat to an IT system can be exploited
+
+1998 - Bruce Schneier's analysis of cyber risks utilizing attack trees in his paper entitled “Toward a Secure System Engineering Methodology” 
+
+1999 - Loren Kohnfelder & Praerit Gard develop the STRIDE threat model 	(Spoofing identity, Tampering with data, Repudiation, Information disclosure, Denial of service, Elevation of privilege)
+
+2003 - OCTAVE (Operationally Critical Threat, Asset, and Vulnerability 	Evaluation)
+
+2004 - Frank Swiderski and Window Snyder wrote “Threat Modeling,” & 		developed the concept of using threat models to create secure 		applications
+
+2014 - Ryan Stillions expressed the idea that cyber threats should be 		expressed with different semantic levels, and proposed the DML (Detection Maturity Level) model
+
+
+What are the most well known models:
+
+STRIDE Methodology - characterizing known threats according to the kinds of exploit that are used (or motivation of the attacker).
+
+DREAD Methodology - quantifying, comparing and prioritizing the amount of risk presented by each evaluated threat. The DREAD algorithm, shown below, is used to compute a risk value, which is an average of all five categories.
+
+Risk_DREAD = (DAMAGE + REPRODUCIBILITY + EXPLOITABILITY + AFFECTED USERS + DISCOVERABILITY) / 5 
+
+The calculation always produces a number between 0 and 10; the higher the number, the more serious the risk. 
+
+P.A.S.T.A. - Process for Attack Simulation and Threat Analysis (PASTA). A seven-step process for aligning business objectives and technical requirements, taking into account compliance issues and business analysis. Provides a dynamic threat identification, enumeration, and scoring process. Once the threat model is completed security subject matter experts develop a detailed analysis of the identified threats. Finally, appropriate security controls can be enumerated. Provides an attacker-centric view of the application and infrastructure from which defenders can develop an asset-centric mitigation strategy.
+
+Trike - Threat models are used to satisfy the security auditing process. Threat models are based on a “requirements model.” The requirements model establishes the stakeholder-defined “acceptable” level of risk assigned to each asset class. Analysis of the requirements model yields a threat model form which threats are enumerated and assigned risk values. The completed threat model is used to construct a risk model based on asset, roles, actions, and calculated risk exposure.
+
+VAST - Visual, Agile, and Simple Threat modeling. Focuses on the necessity of scaling the threat modeling process across the infrastructure and entire SDLC, and integrating it seamlessly into an Agile software development methodology. The methodology seeks to provide actionable outputs for the unique needs of various stakeholders: application architects and developers, cybersecurity personnel, and senior executives.
+
+AS/NZS 4360:2004 Risk Management - the world’s first formal standard for documenting and managing risk.
+
+The five steps of the AS/NZS 4360 process are: 
+
+1. Establish Context: Establish the risk domain, i.e., which assets/systems are important?
+
+2. Identify the Risks: Within the risk domain, what specific risks are apparent?
+
+3. Analyze the Risks: Look at the risks and determine if there are any supporting controls in place.
+
+4. Evaluate the Risks: Determine the residual risk.
+
+5. Treat the Risks: Describe the method to treat the risks so that risks selected by the business will be mitigated.
+
+Note: AS/NZS 4360 assumes that risk will be managed by an operational risk group, and that the organization has adequate skills and risk management resources in house to identify, analyze, and treat the risks. 
+
+CVSS - The US Department of Homeland Security (DHS) established the NIAC Vulnerability Disclosure Working Group, which incorporates input from Cisco Systems, Symantec, ISS, Qualys, Microsoft, CERT/CC, and eBay.
+
+
+2. Threat modeling concepts -
+
+Visual Representations based on Data Flow Diagrams (PASTA | TRIKE)
+
+Visual Representations based on Process Flow Diagrams (VAST)
+
+
+=========================================================================
+
+Topic 11:  Apply risk-based management concepts to the supply chain
+
+1. Risks associated with hardware, software, and services
+	
+NIST SP800-161 - Supply Chain Risk Management Practices for Federal Information Systems and Organizations (page 7)
+
+Supply chain risks include insertion of counterfeits, unauthorized 
+production, tampering, theft, insertion of malicious software and hardware (e.g., GPS tracking devices, computer chips, etc.), as well as poor manufacturing and development practices in the supply chain. These risks are realized when threats in the supply chain exploit existing 
+vulnerabilities.
+ 
+2. Third-party assessment and monitoring
+
+	SLA's vs. Assurance via Due Diligence
+ 
+3. Minimum security requirements
+
+	Requirements gathering
+
+4. Service-level requirements
+
+	SLA vs SLR
+
+=========================================================================
+
+Topic 12:  Establish and maintain a security awareness, education, and 
+training program
+
+Security awareness: 
+
+Establishing an understanding of the importance of, and need to, comply with security policies within the organization
+
+Addresses the "WHY" of policy
+
+
+
+1. Methods and techniques to present awareness and training 
+
+2. Periodic content reviews 
+
+3. Program effectiveness evaluation
+
+
+========================================================================
+
+Other Stuff of Note:
+
+Organizational Roles and Responsibilities:
+
+Security Role - the part an individual plays in the security architecture of the organization
+
+
+Roles to know ...
+
+Data Owner - responsible for data classification
+
+Data Custodian - responsible for implementing the protections called out by the security policy at the behest/direction of the data owner. Performs all activities necessary to provide CIA protection.
+
+User - any person who has access to a secured system
+
+
+
+Risk terminology and concepts - Know the vocab !!!
+
+Asset - anything within the organization that has value and should be afforded CIA protections
+
+Asset valuation - dollar value assigned to an asset
+
+Threats - a potential occurrence that may cause an undesirable outcome vis-a-vis an asset
+
+Vulnerability - weakness to be exploited
+
+Exposure - degree to which you are susceptible to asset loss due to a threat
+
+Risk - possibility or likelihood that a threat will exploit a vulnerability to cause harm to an asset
+
+	risk = threat * vulnerability
+
+
+Threat agent | actor | event - the bad thing looking to do harm
+
+Safeguard | control | countermeasure - something deployed or used to mitigate risk
+
+Attack - the exploitation of a vulnerability by a threat agent (bad actor)
+
+Breach - a countermeasure being bypassed or rendered ineffective
+
+
+Quantitative Risk Analysis: ALE = SLE * ARO
+
+	1. Exposure Factor (EF) - % of loss experienced IF a specific asset were attacked
+
+	2. Single Loss Expectancy (SLE) - the cost associated with a single realized risk against a single asset
+
+	3. Annualized Rate of Occurrence (ARO) - frequency @ which a specified risk will be realized over a single year
+
+	4. Annualized Loss Expectancy (ALE) - potential yearly cost of  all instances of a specified threat
+
+	5. Asset Value (AV) - $$$ amount asset is worth to the organization
+  
+
+	     $10.00   $1.00    10
+		ALE = SLE  *  ARO
+
+$1.00 * 10 ($10.00)    =  $ 1.00    *   10 TIMES (FIREWALL FAILURE)
+
+
+
+	1. Countermeasure is less than ALE  Do this
+	2. Countermeasure is equal to ALE   Do this
+	3. Countermeasure is greater than ALE  Think before acting
+
+
